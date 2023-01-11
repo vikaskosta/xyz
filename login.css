@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+h1{
+    color: #1877f2;
+}
+
+.left{
+    padding: 0 50px;
+}
+.right{
+    padding: 0 50px;
+}
+
+p{
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
+
+.detail {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+ form {
+    display: flex;
+  flex-direction: column;
+  background-color: #fff;
+ }
+ input{
+    
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    background-color: #fff;
+ }
+
+ button{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    margin: 10px 30px;
+    cursor: pointer;
+ }
+
+ .forgot{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+ }
+ 
+ .hr{
+    margin: 20px 0;
+ }
+
+ .signup{
+    background-color: #42b72a;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: white;
+    width: 132px;
+    text-align: center;
+    margin: 0 120px;
+ }
+.formdiv{
+    background-color: #fff;
+}
+.formdiv p {
+    color: #f02849;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 15px;
+    background-color: #fff;
+}
