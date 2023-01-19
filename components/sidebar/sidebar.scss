@@ -1,0 +1,49 @@
+.sidebar{
+    flex: 1;
+    border-right: .5px solid rgb(188, 182, 182);
+    min-height: 100vh;
+    
+   
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(42, 65, 214);
+        }
+    }
+
+    hr{
+        height: 0;
+        border: .5px solid rgb(188, 182, 182);
+    }
+
+    .center{
+        background-color: rgb(66, 70, 69);
+        height: 100%;
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li{
+                font-size: 18px;
+                padding: 15px 10px;
+                // padding-left: 10px;
+                background-color: rgb(66, 70, 69);
+                color: white;
+                cursor: pointer;
+                border-bottom: .5px solid rgb(43, 45, 44);
+
+                &:hover{
+                    background-color: rgb(43, 45, 44);
+                }
+            }
+        }
+    }
+}

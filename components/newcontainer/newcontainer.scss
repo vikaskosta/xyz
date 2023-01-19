@@ -1,0 +1,11 @@
+.newcontainer{
+    display: flex;
+    flex-direction: column;
+    // background-color: aqua;
+    height: 100vh;
+
+    .newbie{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

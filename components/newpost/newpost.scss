@@ -1,0 +1,31 @@
+.newpost{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+    form{
+        -webkit-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+        height: 180px;
+        position: relative;
+
+        input{
+            // background-color: #f0f2f5;
+            border: none;
+            outline: none;
+        }
+        textarea{
+            height: 50px;
+            resize: none;
+            // background-color: #f0f2f5;
+            border: none;
+            outline: none;
+        }
+
+        background-color: #f0f2f5
+    }
+    
+}

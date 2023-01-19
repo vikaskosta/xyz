@@ -1,0 +1,29 @@
+.navbar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    border: .5px solid rgb(188, 182, 182);
+    justify-content: flex-end;
+    background-color: rgb(66, 70, 69);
+
+    a{
+        color: white;
+        background-color: rgb(66, 70, 69);
+
+      
+    }
+
+    .navlist{
+        padding: 12px 10px;
+        font-size: 20px;
+        background-color:  rgb(66, 70, 69);
+        color: white;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(43, 45, 44);
+        }
+    }
+}
+
